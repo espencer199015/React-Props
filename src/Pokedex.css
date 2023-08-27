@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter.woff2') format('woff2');
+  
+.Pokedex {
+  text-align: center;
+}
+
+.Pokedex-title {
+  color: darkgray;
+}
+
+.Pokedex-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Pokedex-winner {
+  font-weight: bold;
+  color: orangered;
+}
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter.woff2') format('woff2');
+
+.Pokecard {
+  display: inline-block;
+  width: 8em;
+  background-color: lightgray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.Pokecard-title {
+  color: blue;
+  font-weight: bold;
+}
+
+.Pokecard-data {
+  font-size: 80%;
+}
+}
